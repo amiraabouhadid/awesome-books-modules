@@ -1,4 +1,4 @@
-import Book from "./Book.mjs";
+import Book from "./Book.js";
 let books;
 export default class UserInterface {
   static container = document.getElementById("container");
