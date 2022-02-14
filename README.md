@@ -22,24 +22,20 @@ To get a local copy up and running follow these simple example steps:
 - Enter the following:
 ```
 $ git clone git@github.com:amiraabouhadid/awesome-books-modules.git.
-
 ```
 - Press Enter to create your local clone.
 - Navigate to the cloned repository by running:
-  ```
-  $ cd awesome-books-modules 
-
-  ```
+    ```
+    $ cd awesome-books-modules 
+    ```
 - Install all dependencies using:
- ``` 
- $ npm install
-
- ```
+    ``` 
+    $ npm install
+    ```
 - Run local server using:
- ``` 
- $ npx parcel index.html
-
- ```
+    ``` 
+    $ npx parcel index.html
+    ```
 
 ### Prerequisites
 - GitHub
