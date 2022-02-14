@@ -4,7 +4,6 @@
 
 > **Awesome books** is a simple website that displays a list of books and allows the user to add and remove books from that list.
 
-
 ## Built With
 
 - HTML5
@@ -27,12 +26,20 @@ $ git clone git@github.com:amiraabouhadid/awesome-books-modules.git.
 ```
 - Press Enter to create your local clone.
 - Navigate to the cloned repository by running:
-  ```cd awesome-books-modules``
-- Install all dependencies using:
- ``` npm install``
-- Run local server using:
- ``` npx parcel index.html``
+  ```
+  $ cd awesome-books-modules 
 
+  ```
+- Install all dependencies using:
+ ``` 
+ $ npm install
+
+ ```
+- Run local server using:
+ ``` 
+ $ npx parcel index.html
+
+ ```
 
 ### Prerequisites
 - GitHub
