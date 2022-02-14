@@ -1,5 +1,5 @@
-import UserInterface from './modules/UserInterface.js';
-import updateDate from './modules/DisplayDateTime.js';
+import UserInterface from './modules/UserInterface';
+import updateDate from './modules/DisplayDateTime';
 
 UserInterface.populateContainer();
 UserInterface.addButton.addEventListener('click', UserInterface.addBook);
