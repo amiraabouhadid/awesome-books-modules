@@ -13,7 +13,7 @@ export default class UserInterface {
   static addBook() {
     const book = new Book(
       UserInterface.titleInput.value,
-      UserInterface.authorInput.value, 
+      UserInterface.authorInput.value,
     );
     books.push(book);
     localStorage.setItem('books', JSON.stringify(books));
@@ -62,7 +62,7 @@ export default class UserInterface {
 
     const removeButton = document.createElement('button');
     removeButton.classList.add('remove-button');
-    removeButton.innerHTML = `<i class='fas fa-trash-alt'></i> Remove`;
+    removeButton.innerHTML = 'Remove';
 
     removeButton.onclick = () => {
       UserInterface.removeBook(book, index);
