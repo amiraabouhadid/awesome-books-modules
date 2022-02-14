@@ -1,9 +1,7 @@
 import { DateTime } from "luxon";
-export default function updateDate() {
+export default ()=>{
   const dateContainer = document.querySelector("#date-container");
-  dateContainer.innerHTML = "";
+  dateContainer.innerHTML  = '';
   const date = DateTime.now().toFormat("FF");
-  console.log(date);
-
   dateContainer.append(date);
 }
