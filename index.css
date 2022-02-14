@@ -107,14 +107,8 @@ header {
   flex-direction: row;
   justify-content: space-between;
   background-color: var(--iron);
-  padding-left:
-    calc(
-      0.2 * (100vw - var(--media-breakpoint)) + 12px
-    );
-  padding-right:
-    calc(
-      0.2 * (100vw - var(--media-breakpoint)) + 12px
-    );
+  padding-left: calc(0.2 * (100vw - var(--media-breakpoint)) + 12px);
+  padding-right: calc(0.2 * (100vw - var(--media-breakpoint)) + 12px);
 }
 
 .desktop-nav .logo {
@@ -428,8 +422,6 @@ small {
 
 /* |||@media mobile only-------------------------------------- */
 
-
-
 /* |||@media desktop only -------------------------------------- */
 
 @media only screen and (min-width: 768px) {
@@ -451,14 +443,8 @@ small {
 
   /* main */
   main {
-    padding-left:
-      calc(
-        0.2 * (100vw - var(--media-breakpoint)) + 12px
-      );
-    padding-right:
-      calc(
-        0.2 * (100vw - var(--media-breakpoint)) + 12px
-      );
+    padding-left: calc(0.2 * (100vw - var(--media-breakpoint)) + 12px);
+    padding-right: calc(0.2 * (100vw - var(--media-breakpoint)) + 12px);
   }
 }
 
